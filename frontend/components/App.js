@@ -6,10 +6,12 @@ function App() {
   return (
     <div id="app">
       <nav>
-        {/* NavLinks here */}
+        {/*<Home />*/}
+        {/*<Order />*/}
       </nav>
-      {/* Route and Routes here */}
-      <Home />
+      {/* <Home/>*/}
+      {/*<Form />*/}
+      <Home /> 
       <Form />
     </div>
   )
