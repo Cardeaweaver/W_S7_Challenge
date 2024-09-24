@@ -83,7 +83,7 @@ const handleToppings = (evt) => {
 
   }
 return (
-  <form>
+  <form> onSubmit={onSubmit}
        <h2>Order Your Pizza</h2>
       {serverSuccess && <div className='success'>{serverSuccess}</div>}
       {serverFailure && <div className='failure'>{serverFailure}</div>}
